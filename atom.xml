@@ -4,11 +4,11 @@
   <title><![CDATA[Software Engineering]]></title>
   <link href="http://pybae.github.io/atom.xml" rel="self"/>
   <link href="http://pybae.github.io/"/>
-  <updated>2015-01-23T16:19:36-06:00</updated>
+  <updated>2015-01-23T16:22:57-06:00</updated>
   <id>http://pybae.github.io/</id>
   <author>
     <name><![CDATA[Paul Bae]]></name>
-    
+    <email><![CDATA[pbae@utexas.edu]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
