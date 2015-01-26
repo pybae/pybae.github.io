@@ -40,7 +40,7 @@ Although it was a bit jarring at first, his teaching style is among the best I'v
 The material he teaches is unique, as mentioned before. Other universities
 rarely have an "Object Oriented Programming" course, and if they do, it's likely
 to be filled with tiresome terminology and outdated concepts.
-These courses are no doubt modern in design.
+His courses are no doubt modern in design.
 They embrace topics that are useful in day-to-day development and strive to keep up with current frameworks.
 However, they are also unadorned.
 They focus on the heart of the material, rather than being concerned with detail.
