@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Week 1: Greetings"
+date: 2015-01-25 20:51:49 -0600
+comments: true
+categories: 
+---
+
+Hello!
+This is my blog for the Software Engineering [class](https://www.cs.utexas.edu/users/downing/cs371p/) at UT Austin.
+To clarify the ambiguous title, the class is revolved around Python.
+The project for the class will be to build a sizable website using Django, MySQL, and others.
+The main goal of the class, however, is to distill good software engineering practices into the students.
+
+I think that's quite a unique ambition.
+Most traditional Computer Science courses tend to teach concepts deeply rooted in history.
+Operating Systems, Theory of Computation, Computer Graphics.
+These courses are considered essential to Computer Science and I've taken, and enjoyed, many of them.
+In modern days, however, the need for these courses are slowly diminishing.
+It's hard to walk even a few feet in a Career Fair before being assaulted by buzzwords such as Node.js, Ruby On Rails, Angular, and Bootstrap. 
+Furthermore, it is rare to find recruiters asking about experience in compilers or operating systems.
+
+By no means, however, am I dissuading anyone from learning about these new technologies.
+In fact, I enjoy them thoroughly. When I first learned of Ruby, I tried to do
+nearly everything in Ruby, from Competitive Programming to [Graphics](https://github.com/jashkenas/ruby-processing).
+I take pleasure in learning obscure programming languages, such as APL.
+I've tried Lisp, Haskell, Scala, Smalltalk, D, and Rust among dozens of others.
+I browse /r/programming and Hacker News habitually, constantly looking for new and promising frameworks.
+Throughout these endeavors, I never seek to "master" a language or a framework.
+Rather, I simply enjoy trying alternatives to the methods I already use and trust.
+
+Anyways, back on topic.
+The professor teaching the class, [Glenn Downing](https://www.cs.utexas.edu/users/downing/), is a bit of a celebrity amongst my group of friends.
+Last semester, we all took Object Oriented Programming, another class taught by Downing, and enjoyed it thoroughly.
+By the end of the term, we were all fervent fans of Professor Downing, calling him the Master of C++.
+Downing has a bit of a unique teaching style, which encourages active learning.
+He forbids skipping class and calls on students in class to ensure that we're alert.
+Although it was a bit jarring at first, his teaching style is among the best I've seen so far.
+
+The material he teaches is unique, as mentioned before. Other universities
+rarely have an "Object Oriented Programming" course, and if they do, it's likely
+to be filled with tiresome terminology and outdated concepts.
+These courses are no doubt modern in design.
+They embrace topics that are useful in day-to-day development and strive to keep up with current frameworks.
+However, they are also unadorned.
+They focus on the heart of the material, rather than being concerned with detail.
+For these reasons, I recommend anyone interested in Software Development to take a Downing course. The experiences gained are indispensable.
+
+It's been a while since I've written something substantial, and as such, it's a little awkward to pick up the pen again.
+Yet, I'm looking forward to it.
+I hope that you will be entertained with my clumsy thoughts and perhaps benefit from them as well.
+
+Sincerely,
+Paul
