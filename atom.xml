@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Software Engineering]]></title>
+  <link href="http://pybae.github.io/atom.xml" rel="self"/>
+  <link href="http://pybae.github.io/"/>
+  <updated>2015-01-23T16:46:18-06:00</updated>
+  <id>http://pybae.github.io/</id>
+  <author>
+    <name><![CDATA[Paul Bae]]></name>
+    <email><![CDATA[pbae@utexas.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
