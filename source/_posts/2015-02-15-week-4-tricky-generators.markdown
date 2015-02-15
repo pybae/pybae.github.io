@@ -39,7 +39,7 @@ print(for x in range(100))
 
 What would the above print?
 Well, although I held doubts about the syntax, I put down the expected answer of the integers from 0 to 99.
-Yet, I was dismayed to find out that the answer was <generator 0x1abc0ed>
+Yet, I was dismayed to find out that the answer was "generator 0x1abc0ed"
 
 I suppose it's a good wake up call to pay more attention to the specifics of the code.
 I tend to avoid being picky with syntax, instead trying to infer the general logic behind the code.
