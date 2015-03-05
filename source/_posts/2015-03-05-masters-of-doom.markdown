@@ -38,5 +38,19 @@ Personally, I learned much from "Masters of Doom" about video games, business, a
 
 ### Citations
 
-1. Author's Notes
-2. Final Chapter
+1. Page 309 in Masters of Doom
+2. Page 288 in Masters of Doom
+3. Page 4 in Masters of Doom
+4. Page 5 in Masters of Doom
+5. Page 12 in Masters of Doom
+6. Page 18 in Masters of Doom
+7. Page 19 in Masters of Doom
+8. Page 23 in Masters of Doom
+9. Page 37 in Masters of Doom
+10. Most of Masters of Doom
+11. Page 172 in Masters of Doom
+12. Page 220 in Masters of Doom
+13. Page 230 in Masters of Doom
+14. Page 229 in Masters of Doom
+15. Metacritic - http://www.metacritic.com/game/pc/rage
+16. Oculus Blog - https://www.oculus.com/blog/john-carmack-joins-oculus-as-cto/
