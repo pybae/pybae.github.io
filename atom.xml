@@ -1,126 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<title>pybae</title>
-	<meta name="author" content="Paul Bae">
-
-	
-	<meta name="description" content="A Simple Introduction to Scrapy Introduction Scrapy is a popular web scraper in Python 2.7.8. Python 3 is not officially supported, although there &hellip;">
-	
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="pybae" type="application/atom+xml">
-	
-	<link rel="canonical" href="http://pybae.github.io/">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
-  
-
-</head>
-
-
-<body>
-	<div class="container">
-		<div class="left-col">
-			<div class="intrude-less">
-			<header id="header" class="inner"><div class="profilepic">
-	
-	<script src="/javascripts/md5.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("pbae@utexas.edu") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
-		});
-	</script>
-	
-</div>
-<hgroup>
-<h1><a href="/">pybae</a></h1>
-
-</hgroup>
-
-<nav id="main-nav"><ul class="main">
-    <li><a href="/">Blog</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-<nav id="sub-nav">
-	<div class="social">
-		
-			<a class="email" href="mailto:pbae@utexas.edu" title="Email">Email</a>
-		
-		
-		
-		
-			<a class="twitter" href="http://twitter.com/pie_bae" title="Twitter">Twitter</a>
-		
-		
-			<a class="github" href="https://github.com/pybae" title="GitHub">GitHub</a>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-    	
-    	
-			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-	</div>
-</nav>
-</header>				
-			</div>
-		</div>	
-		<div class="mid-col">
-			
-				
-			
-			<div class="mid-col-container">
-				<div id="content" class="inner">
-<div itemscope itemtype="http://schema.org/Blog">
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
+  <title><![CDATA[pybae]]></title>
+  <link href="http://pybae.github.io/atom.xml" rel="self"/>
+  <link href="http://pybae.github.io/"/>
+  <updated>2015-04-27T17:27:13-05:00</updated>
+  <id>http://pybae.github.io/</id>
+  <author>
+    <name><![CDATA[Paul Bae]]></name>
+    <email><![CDATA[pbae@utexas.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2015-04-27T12:36:39-05:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/04/27/a-simple-introduction-to-scrapy/" itemprop="url">A Simple Introduction to Scrapy</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h3>Introduction</h3>
+  <entry>
+    <title type="html"><![CDATA[A simple introduction to Scrapy]]></title>
+    <link href="http://pybae.github.io/blog/2015/04/27/a-simple-introduction-to-scrapy/"/>
+    <updated>2015-04-27T12:36:39-05:00</updated>
+    <id>http://pybae.github.io/blog/2015/04/27/a-simple-introduction-to-scrapy</id>
+    <content type="html"><![CDATA[<h3>Introduction</h3>
 
 <p><a href="http://scrapy.org/">Scrapy</a> is a popular web scraper in Python 2.7.8. Python 3 is not officially supported, although there have been movements for this to port the language. In this article, I&rsquo;ll be going through some of the main features of Scrapy and sharing how I used it in <a href="http://freespirits.me">our project</a>. But first, let&rsquo;s define some common terminology used.</p>
 
@@ -531,37 +429,15 @@ It&rsquo;s easiest to scrape website which uses ids.</p>
 
 <p>Hope you enjoyed!
 - pybae</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-04-22T15:38:52-05:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/04/22/crafting-minecraft/" itemprop="url">Crafting Minecraft</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h3>Introduction</h3>
+  <entry>
+    <title type="html"><![CDATA[Crafting Minecraft]]></title>
+    <link href="http://pybae.github.io/blog/2015/04/22/crafting-minecraft/"/>
+    <updated>2015-04-22T15:38:52-05:00</updated>
+    <id>http://pybae.github.io/blog/2015/04/22/crafting-minecraft</id>
+    <content type="html"><![CDATA[<h3>Introduction</h3>
 
 <p><img src="http://i.imgur.com/RhbniNM.jpg" alt="Minecraft FA 310" /></p>
 
@@ -614,37 +490,15 @@ As mentioned before, the game tends to be pretty open-ended. However, it is poss
 
 <p>Regarding the images used throughout the post,
 besides those I&rsquo;ve created personally, all of the images in the post can be found in the page document in my Github to the left.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-03-05T04:13:14-06:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/03/05/masters-of-doom/" itemprop="url">Masters of Doom</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<h3>Introduction</h3>
+  <entry>
+    <title type="html"><![CDATA[Masters of Doom]]></title>
+    <link href="http://pybae.github.io/blog/2015/03/05/masters-of-doom/"/>
+    <updated>2015-03-05T04:13:14-06:00</updated>
+    <id>http://pybae.github.io/blog/2015/03/05/masters-of-doom</id>
+    <content type="html"><![CDATA[<h3>Introduction</h3>
 
 <p>&ldquo;Masters of Doom&rdquo; was written by David Kushner in the course of six years. In these six years, he conducted hundreds of interviews [1], attended various Doom and Quake tournaments, and launched a Hydrogen Peroxide powered rocket with John Carmack [2]. The result was beyond belief. The book reached completion in 2003 and was published by Random House. &ldquo;Masters of Doom&rdquo; chronicles the tales of the &ldquo;Two Johns&rdquo;, John Romero and John Carmack, their company id Software, and their eventual dispersion.</p>
 
@@ -695,37 +549,15 @@ besides those I&rsquo;ve created personally, all of the images in the post can b
 <li>Oculus Blog - <a href="https://www.oculus.com/blog/john-carmack-joins-oculus-as-cto/">https://www.oculus.com/blog/john-carmack-joins-oculus-as-cto/</a></li>
 </ol>
 
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-02-15T14:52:14-06:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/02/15/week-4-tricky-generators/" itemprop="url">Week 4: Tricky Generators</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>This week, we continued our adventure into functional programming and talked
+  <entry>
+    <title type="html"><![CDATA[Week 4: Tricky Generators]]></title>
+    <link href="http://pybae.github.io/blog/2015/02/15/week-4-tricky-generators/"/>
+    <updated>2015-02-15T14:52:14-06:00</updated>
+    <id>http://pybae.github.io/blog/2015/02/15/week-4-tricky-generators</id>
+    <content type="html"><![CDATA[<p>This week, we continued our adventure into functional programming and talked
 about an interesting feature of Python: Generators.
 Generators are functions that behave as iterators, thus enabling them to be used
 in loops. A prime example of this would be in Haskell, where everything is a
@@ -792,37 +624,15 @@ I&rsquo;d recommend giving it a shot.</p>
 
 <p>Thanks for reading,
 Paul</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-02-07T19:12:59-06:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/02/07/week-3-collatz-redux-and-functional-programming/" itemprop="url">Week 3: Collatz Redux and Functional Programming</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>The Collatz assignment was due this week, and much to my dismay, I don&rsquo;t think I
+  <entry>
+    <title type="html"><![CDATA[Week 3: Collatz Redux and Functional Programming]]></title>
+    <link href="http://pybae.github.io/blog/2015/02/07/week-3-collatz-redux-and-functional-programming/"/>
+    <updated>2015-02-07T19:12:59-06:00</updated>
+    <id>http://pybae.github.io/blog/2015/02/07/week-3-collatz-redux-and-functional-programming</id>
+    <content type="html"><![CDATA[<p>The Collatz assignment was due this week, and much to my dismay, I don&rsquo;t think I
 did too well. The main problem was in <a href="http://www.spoj.com/problems/PROBTRES/">V2</a>, the extra credit option available to
 us.</p>
 
@@ -883,37 +693,15 @@ for any programmer and I&rsquo;m ecstatic to see what Python will offer.</p>
 
 <p>Thanks for reading,
 Paul</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-02-01T16:10:31-06:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/02/01/week-2-emacs-and-collatz/" itemprop="url">Week 2: Emacs and Collatz</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>We are now in our second week of class and have been given the first assignment: Collatz.
+  <entry>
+    <title type="html"><![CDATA[Week 2: Emacs and Collatz]]></title>
+    <link href="http://pybae.github.io/blog/2015/02/01/week-2-emacs-and-collatz/"/>
+    <updated>2015-02-01T16:10:31-06:00</updated>
+    <id>http://pybae.github.io/blog/2015/02/01/week-2-emacs-and-collatz</id>
+    <content type="html"><![CDATA[<p>We are now in our second week of class and have been given the first assignment: Collatz.
 The assignment is to write a program that finds the maximum cycle length of a range specified by user input.
 After finishing, we are expected to submit our assignments to <a href="http://www.spoj.com/problems/PROBTNPO/">SPOJ</a>
 As mentioned before, I&rsquo;ve already taken one of Downing&rsquo;s classes, Object Oriented Programming.
@@ -980,37 +768,15 @@ More than an editor, it&rsquo;s a lifetime partner.</p>
 
 <p>Thanks for reading,
 Paul</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-25T20:51:49-06:00" data-updated="true" itemprop="datePublished"></time></div>
-		<div class="tags">
-
-</div>
-		
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/01/25/week-1-greetings/" itemprop="url">Week 1: Greetings</a></h1>
-	<div class="entry-content" itemprop="articleBody">
-		<p>Hello!
+  <entry>
+    <title type="html"><![CDATA[Week 1: Greetings]]></title>
+    <link href="http://pybae.github.io/blog/2015/01/25/week-1-greetings/"/>
+    <updated>2015-01-25T20:51:49-06:00</updated>
+    <id>http://pybae.github.io/blog/2015/01/25/week-1-greetings</id>
+    <content type="html"><![CDATA[<p>Hello!
 This is my blog for the Software Engineering <a href="https://www.cs.utexas.edu/users/downing/cs371p/">class</a> at UT Austin.
 To clarify the ambiguous title, the class is revolved around Python.
 The project for the class will be to build a sizable website using Django, MySQL, and others.
@@ -1056,48 +822,7 @@ I hope that you will be entertained with my clumsy thoughts and perhaps benefit 
 
 <p>Sincerely,
 Paul</p>
-
-		
-		
-	</div>
-
-</article>
-
-</div>
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
-			</div>
-			<footer id="footer" class="inner">Copyright &copy; 2015
-
-    Paul Bae
-
-
-Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
-		</div>
-	</div>
-	
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-</body>
-</html>
+]]></content>
+  </entry>
+  
+</feed>

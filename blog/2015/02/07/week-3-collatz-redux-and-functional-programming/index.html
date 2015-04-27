@@ -1,0 +1,210 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Week 3: Collatz Redux and Functional Programming - pybae</title>
+	<meta name="author" content="Paul Bae">
+
+	
+	<meta name="description" content="Week 3: Collatz Redux and Functional Programming The Collatz assignment was due this week, and much to my dismay, I don&rsquo;t think I
+did too well &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="pybae" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://pybae.github.io/blog/2015/02/07/week-3-collatz-redux-and-functional-programming/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<script src="/javascripts/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("pbae@utexas.edu") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+</div>
+<hgroup>
+<h1><a href="/">pybae</a></h1>
+
+</hgroup>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/">Blog</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href="mailto:pbae@utexas.edu" title="Email">Email</a>
+		
+		
+		
+		
+			<a class="twitter" href="http://twitter.com/pie_bae" title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href="https://github.com/pybae" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">Week 3: Collatz Redux and Functional Programming</h1>
+	<div class="entry-content" itemprop="articleBody"><p>The Collatz assignment was due this week, and much to my dismay, I don&rsquo;t think I
+did too well. The main problem was in <a href="http://www.spoj.com/problems/PROBTRES/">V2</a>, the extra credit option available to
+us.</p>
+
+<p>This new version had the same specifications as the <a href="http://www.spoj.com/problems/PROBTNPO/">original question</a>,
+but had differing input. The two differences with this version are:</p>
+
+<ol>
+<li><p>Input contains empty newlines.
+Professor Downing gave us the framework for the code, and input/output was
+included in this framework. The only thing we needed to implement was a method
+of the following definition: <code>def collatz_eval(x, y)</code>
+So, when receiving numerous runtime errors on Sphere, it didn&rsquo;t occur to me to
+fix the input function. I was rather narrow-minded in my debugging and I
+wasn&rsquo;t able to find the bug in the end. I&rsquo;m humbled from the experience and
+determined to not err the same way again.</p></li>
+<li><p>Output can overflow a 32-bit unsigned int and the result should be overflowed
+I managed to figure this one out by successfully writing code that lead to
+correct results in C++. The solution was rather simple: bit anding with the
+max 32-bit value every iteration.</p></li>
+</ol>
+
+
+<p>In total, I&rsquo;m disapppointed in myself for this project. I admit I was arrogant
+coming into it and failed to properly consider the requirements at hand. I
+learned a valuable lesson from this project and it is one that I hope to never
+forget.</p>
+
+<p>Moving forward, the lectures for this week were among the most interesting so
+far. We covered my favorite topic in Python: functional programming!</p>
+
+<p>Functional programming offers many benefits, conciseness, ease of development,
+and reliability. One that I was surprised to find in Python was the increased
+speed. I tested this in IPython with the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;string&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">1000</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="o">%</span><span class="n">timeit</span> <span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">upper</span><span class="p">,</span> <span class="n">words</span><span class="p">)</span>
+</span><span class='line'><span class="c"># 1000000 loops, best of 3: 265 ns per loop</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="o">%</span><span class="n">timeit</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">words</span><span class="p">]</span>
+</span><span class='line'><span class="c"># 10000 loops, best of 3: 128 µs per loop</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s nearly a thousand times speedup. The main reason being that map pushed a
+for loop from the interpreter into C code, thus speeding up the disassembly.
+However, it&rsquo;s not significant in real-world code and list compehrensions are
+much more common in use.  <a href="http://stackoverflow.com/questions/1247486/python-list-comprehension-vs-map">This</a>
+is a really good post about the differences between the two.</p>
+
+<p>Regardless of speed, however, functional programming does offer many benefits.<br/>
+It&rsquo;s a different way to approach problems and it enables for clever and
+beautiful solutions. Without a doubt, functional programming is a useful tool
+for any programmer and I&rsquo;m ecstatic to see what Python will offer.</p>
+
+<p>Thanks for reading,
+Paul</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Paul Bae
+
+
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
+</html>
