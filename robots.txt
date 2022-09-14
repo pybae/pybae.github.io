@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://pybae.github.io/sitemap.xml 
