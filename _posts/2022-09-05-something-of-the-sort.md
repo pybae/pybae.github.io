@@ -5,7 +5,8 @@ title: something of the sort
 
 I told a friend that I was thinking of starting a blog. Rare of me.
 
-I don’t usually voice my intention to do anything - be that a hobby or a goal - to others. I dislike the “showing” part of it: that you do what you do because you say (or really want to say) that you’re doing it.
+I don’t usually voice my intention to do anything - be that a hobby or a goal - to others. \
+I dislike the “showing” part of it: that you do what you do because you say (or really want to say) that you’re doing it.
 
 
 “Yeah, I read, I’ve been reading the Alchemist this last week, so insightful. Do you read?” \
