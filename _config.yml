@@ -1,5 +1,5 @@
 # Setup
-title: Type
+title: of the sort
 # tagline: #remove page tile so it's useless
 # url: "https://typesetting.vercel.app"
 paginate: 1
@@ -31,12 +31,6 @@ sass:
 
 # Replace this value and uncomment to enable Google Analytics tracking
 # ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: author
-  url:  https://example.com
-  email: example@mail.com
 
 # Custom vars
 version: 3.0.0
