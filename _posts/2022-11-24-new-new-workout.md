@@ -101,7 +101,8 @@ It’s these moments I crave.
 I’m still not very good at it. \
 I’d like to be.
 
-Climbing is a mental game. And though we train our bodies to do ridiculous feats of strength, we rarely train our fortitudes.
+Climbing is a mental game. \
+We train our bodies to do ridiculous feats of strength, but we rarely train our fortitudes.
 
 <br>
 
