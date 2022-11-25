@@ -218,8 +218,8 @@ Ticks 2023.
   * Fingers
 * Learn to climb
   * Small holds, body tension
-  * Compression and thuggery
-  * Techy trickery
+  * Thuggery
+  * Trickery
 * Try some projs
   * Collateral Impact
   * Sweat
