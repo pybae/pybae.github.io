@@ -228,6 +228,12 @@ Ticks 2023.
   * Boxcar Arete
   * Ashima Mandala
   * Koma's lite
+* Climb lots
+  * Send the park
+  * Send the linez
+  * Climb at the pond
+  * Climb at haycock
+  * Go beach bouldering
 * Lead climb
   * Peer Pressure
   * Get It On
