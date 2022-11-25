@@ -201,10 +201,11 @@ Even now, I’m scared of leading. To very directly confront my fears and trauma
 
 But I would learn from it. So let's try it.
 
-And to just climb more different styles I might’ve shied away from before. \
+And to climb different styles I might’ve shied away from before. \
 Self-selecting the climbs I like pigeon holes me into not considering others.
 
-I’d like to try everything. Climb everything and learn from each experience.
+I’d like to try everything. \
+Climb everything and learn from each experience.
 
 <br>
 
