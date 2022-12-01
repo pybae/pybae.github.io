@@ -76,7 +76,7 @@ title: the gumby training manual
 
 The above is my current training plan, written and started as of November 25th.
 
-It is based off an amalgamation of past experiences and experiments as well as a large pool of borrowed knowledge from others.
+It is based off an amalgamation of past experiences and experiments as well as a large pool of borrowed knowledge.
 
 I'm self-taught in both climbing and training. And though I've learned a few things now, there always remains much to learn.
 
