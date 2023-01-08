@@ -45,7 +45,7 @@ title: the gumby training manual
     * Either flash burns, finishing climbs tried prior, or working moves on new ones
     * Usually about 2 hours with 5-10 minute rests in between
   * 4x4 Weighted Pull Ups (same as above)
-  * Antagnoist routine (same as above)
+  * Antagonist routine (same as above)
   * Core maintenance routine (same as above)
 * Thursday
   * Rest 
@@ -86,7 +86,7 @@ This is a bit of a commentary on how to approach training and why.
 
 The first question worth asking is "should I train."
 
-The answer is personal and is often no. And it should be!`
+The answer is personal and is often no. And it should be!
 
 Progression is only one part of climbing. \
 Actively pursuing it, especially with the short-term mindset to "get stronger" often only ends in injury and disappointment. Just climbing and enjoying the sport will typically reward you regardless - there is no need to actively and consciously train to progress.
