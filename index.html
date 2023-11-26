@@ -10,7 +10,6 @@ title: Home
   {% if post.categories contains 'poem' %}
     <div class="post-title">
       <a href="{{ post.url | relative_url }}">
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
       </a>
     </div>
   {% else %}
@@ -19,7 +18,6 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
   {% endif %}
 
   {{ post.content }}
@@ -27,15 +25,15 @@ title: Home
   {% endfor %}
 </div>
 
-<div class="pagination">
+<div>
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+    <a class="older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class=" older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
+    <a class=" newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class=" newer">Newer</span>
   {% endif %}
 </div>
